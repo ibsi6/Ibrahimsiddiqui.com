@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/T.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim Siddiqui</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 60px; /* Ensure this is enough to accommodate the nav bar */
+        height: 100%;
+    }
+    #models-list {
+    display: flex; /* Use flex layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    overflow-y: auto; /* Scroll vertically if needed */
+    max-height: 300px; /* Set a max height to cause overflow */
+    gap: 10px; /* Optional: adds some space between items */
+}
+.model-item {
+    flex: 1; /* Each item can grow */
+    min-width: 200px; /* Minimum width for each item before wrapping */
+}
+    #nav-bar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically, if needed */
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        font-size: larger;
+        margin: 0 10px; /* Adds some space around each link */
+    }
+
+    .fade-out {
+    animation: fadeOut 0.5s;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+</style>
+
+</head>
+<body>
+    <div id="app">
+        <!-- Dynamic content goes here -->
+    </div>
+    <!-- Navigation Bar at the bottom -->
+    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid justify-content-center">
+        <div class="navbar-nav">
+<a class="nav-item nav-link active" id="nav-home" href="#">Home</a><a class="nav-item nav-link" id="nav-models" href="#">Models</a>            
+
+            <a class="nav-item nav-link" href="https://www.linkedin.com/in/ibrahim-siddiqui-1b5963285/" target="_blank">LinkedIn</a>
+<a class="nav-item nav-link" id="nav-about" href="#">About</a>
+        </div>
+
+    </div>
+</nav>
+
+</nav>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
