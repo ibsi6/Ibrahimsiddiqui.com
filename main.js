@@ -2,9 +2,20 @@
 // Define your models
 
 const models = [
+
+    {
+        name: "Overview: Alzeimers",
+        url:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkW3ttSzsvS3gvCkzYT394bgKGdFkJrlxD55qRtdQWik1fgaEF6v-tWc0PrK_YGcipE9qa8DKvt63N/pubhtml?widget=true&amp;headers=true"
+
+    },
     {
         name: "Overview: Biopharma",
         url:"https://docs.google.com/spreadsheets/d/e/2PACX-1vQTFiDkWb3AJvgqxxV-Nc-416kTdSsKX5vs0mRYRwPqPsBXcOzP8-8Xa_muVmPIvUGgrEqaDAOeIdIL/pubhtml?widget=true&amp;headers=true"
+
+    },
+    {
+        name: "Overview: Cardiovascular",
+        url:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRYmz7Peaam5nwFt_nq_HetX2XpgC2KE0YEsNJfBTt2t8MTKsgCMJYrpZpYK3zyNOr2waUCBrSjsRPa/pubhtml?widget=true&amp;headers=true"
 
     },
 
@@ -24,6 +35,11 @@ const models = [
         url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9l-Jnog-6YFPth8jTTGSJHmxeP2lQpdk2576r3KHpqLbmalcK6swEzLUKBctPvmfU2Yw43g4XFuT6/pubhtml?widget=true&amp;headers=true"
 
     },
+    {
+        name: "Overview: Insulins",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQx1lPxabOi_LTdvi3kta6s2DUfRc8CJ8OCHnBcGA28HaSuO0CLco6OIxuH-wUrQLznKzhi9smGPULx/pubhtml?widget=true&amp;headers=true"
+
+    },
 
     {
         name: "AbbVie [ABBV]",
@@ -33,7 +49,12 @@ const models = [
         name: "Alnylam Pharmaceuticals [ALNY]",
         url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSpcXjw3QeDfsOLiSXLb2ILp1FeXbNWcpIPtKd5-oNrJT9WsCNrpxFHe6kv2JoTPpe_IN_AmS3WCWkd/pubhtml?widget=true&amp;headers=true",
     },
+{
+        name: "Becton Dickinson [BDX]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRRPco7MlUpcgONBAwYPyNmTKuQ_HI1I-Uvm1afVy2kdSV4XmF_tZEkFW4TVA-MKYpAPMhFDM2yBvS/pubhtml?widget=true&amp;headers=true"
 
+
+    },
     {
         name: "Biomarin Pharmaceutical [BMRN]",
         url:"https://docs.google.com/spreadsheets/d/e/2PACX-1vQmQqMa9rJ5k-x1g6cnDpg1rWkC1HsTzgmGi-UxKhmlFXefcfu3OUQoWOZa3vWO-FeYcFyf6mH29JWT/pubhtml?widget=true&amp;headers=true"
@@ -46,7 +67,18 @@ const models = [
 
 
     },
+{
+        name: "Bayer AG [BAYN GY]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSWvajWnNqgGufsaHFbC4hBK8DQTYJ-HN14upB2cQeEpDKnQGeFZ--w-2KGC3ATc_tRbIXaLHtQkzmc/pubhtml?widget=true&amp;headers=true"
 
+
+    },
+    {
+        name: "Baxter International [BAX]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSANcOI_vKVh-wmlrE-i8QNwvh_bvjkr4i76CpXXgWqNKM4xD_U5iNe3JZgeM_4lZEZ-6fgO72c6D8F/pubhtml?widget=true&amp;headers=true"
+
+
+    },
     {
         name: "Contineum Therapeutics [CTNM]",
         url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQPnjxTLOYpx7_E_SHqMPxKqQb3utPuIQQUrqbJaqeoNiuCK1gWZyqjcFh6TyZyghCFSV5Xsc5gAUbx/pubhtml?widget=true&headers=true",
@@ -84,8 +116,46 @@ const models = [
         url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3Sjl93CF4LKtDfr0tsijOUuunod4qkekxNGeazn4GsDk6dgIT3p_BHIuEC2yrNl5vwVBg54qHUif3/pubhtml?widget=true&amp;headers=true"
     },
 
-
-
+    {
+        name: "Samsung Biologics [207940]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vR9f5i2onzTn52FP5NsP_MdjqZVSgwu4wpac5b-c5NRYYrLVsRts-K9KxwsA7pDXX8rdMPACpjfB4nv/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "Celltrion [068270]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSNLNGogqkR4zqx33AoovYyibEGuAjj92x7jPWV3tpxxrDKoVf3QT4rraplq-1xc5zfr0zjnsA4vAcl/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "Otsuka [4578]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQSFFX9BgNk3qQkiWNJjhJmx2WWOWIzrIeeXWLtpiy-yDAMypk-l2dNzs8ThYInlCZPXKf6hqL9Wp37/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "JP Daiichi Sankyo [4568]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrXUmA3y1m6pZhkGin4IJwbqmRqCrg_nsI6_iLdzP8pkRNMM8wWCrlE91rhTqlYNcierTuBbN9___y/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "JP [4523]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_qdindHA_nqY8C0a1GSjdeTUenQE03HpEJBVkvQbw7VdQ9nCks_gQoSFw-eOkiKfARpweDQTCd--y/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "Chugai [4519]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRYJYMBG_soKvjzZo3DnTc4Rago8FZliY-lycX9GtY-xIgH3x_KorCoIeIuGdf1rMWIzKac8gxzrDCm/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "JP [4503]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSXkQS8UdOHQCHQEtTIclquE8tMGIOSADvUvqVNVxzi1Ulgg4H_BjqpSy8TQuYL-jr0nmHQ0hdiCAoC/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "Takeda [4502]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQUk4vW7HHpuq-GdmYW_LFJlqQhNlJt2ckIim0_R9O_xIcapk78YkbVhiiFrugOQU8-GNS2NvN0ZeKe/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "HK WuXi Biologics [2269]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfyazPfG8iZeAAN8sclZbFqm5RuQMIMgs2s2ho27CmQMPtf4bh5_rZemR2GVq3xWpniYugkR2WkPYj/pubhtml?widget=true&amp;headers=true"
+    },
+    {
+        name: "HK Sino [1177]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTgrnNRAGob6OUOhyqH71YTWVZbhdZNsrT0sDiKF46_dgbYCSDJDiH2jwQMk5EYHQ2fKPzb2-Ou2f7R/pubhtml?widget=true&amp;headers=true"
+    },
 
     
 ];
@@ -188,8 +258,8 @@ document.getElementById('nav-models').addEventListener('click', function(event) 
 
         appDiv.innerHTML = `
             <div style="margin-top:20px; font-family: 'Roboto', sans-serif; padding-left: 20px;overflow-y: auto;">
-            <h1 style="text-align:left; font-weight: bold; ">Analysis</h1>
-            <h1 style="text-align:left; color: grey; font-size:smaller;">Some of the larger models take longer to load <br> <br> Working on CTNM right now!</h1>
+            <h1 style = "">In on CTNM! Check out Gilead!</h1>
+            <h1 style="text-align:left; color: red; font-size:smaller;">(Some models take longer to load)<br> </h1>
 
             <ul id="models-list" style="padding:0;">
                 ${modelsHtml}

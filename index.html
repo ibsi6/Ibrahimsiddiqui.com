@@ -17,15 +17,20 @@
         padding-bottom: 60px; /* Ensure this is enough to accommodate the nav bar */
         height: 100%;
     }
+    #app {
+        padding-bottom: 30px; /* Add padding at the bottom equal to the navbar's height */
+        overflow-y: auto; /* Enables scrolling within the app div if needed */
+        height: calc(100vh - 5px); /* Subtract the navbar's height from the viewport height */
+    }
     #models-list {
-    display: flex; /* Use flex layout */
-    flex-wrap: wrap; /* Allow items to wrap to next line */
+    /*display: flex; /* Use flex layout */
+    /*flex-wrap: wrap; /* Allow items to wrap to next line */
     overflow-y: auto; /* Scroll vertically if needed */
-    max-height: 300px; /* Set a max height to cause overflow */
+    max-height: auto; /* Set a max height to cause overflow */
     gap: 10px; /* Optional: adds some space between items */
 }
 .model-item {
-    flex: 1; /* Each item can grow */
+     /* Each item can grow *flex: 1;/
     min-width: 200px; /* Minimum width for each item before wrapping */
 }
     #nav-bar {
