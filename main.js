@@ -110,6 +110,13 @@ const models = [
 
     },
 
+
+    {
+        name: "Kura Oncology [KURA]",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRF7elicm3bsTy_yXaR1NQ3kFFG6Sdt3xUf0ywLP1hkxfp79tmENjQmZ8cUKtDjAIavYjKh5oF3FtEE/pubhtml?widget=true&amp;headers=true"
+
+    },
+
     {
         name: "Eli Lily [LLY]",
         url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3onqvYjYDO0hFsAm03cxyutyC4aRyA5UrTVcy_6HfTUC3YdP7SKPZjTGeOgb1pMbDYdsE2ALlvqlO/pubhtml?widget=true&amp;headers=true"
