@@ -263,7 +263,7 @@ document.getElementById('nav-models').addEventListener('click', function(event) 
 
         appDiv.innerHTML = `
             <div style="margin-top:20px; font-family: 'Roboto', sans-serif; padding-left: 20px;overflow-y: auto;">
-            <h1 style = "">In on CTNM! Check out Gilead!</h1>
+            <h1 style = "">Kura Oncology Added</h1>
             <h1 style="text-align:left; color: red; font-size:smaller;">(Some models take longer to load)<br> </h1>
 
             <ul id="models-list" style="padding:0;">
